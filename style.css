@@ -20,8 +20,17 @@
   }
   .nav {
     position: absolute;
+    display: inline-flex;
 
   }
+
+  .nav:hover {
+    text-decoration: line-through;
+    color: #f1f1f1;
+    text-shadow: 7px 7px 7px #000;
+
+  }
+
 
   .intro-box h1 {
     position: absolute;
@@ -56,7 +65,7 @@ body {
   margin: 30px 30px 0 30px;
   padding: 30px 30px 0 30px;
   height: auto;
-  width: 90%;
+  width: 80%;
   -webkit-box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.65);
   box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.65);
 }

@@ -8,6 +8,20 @@
   body {
     min-width: 300px;
     min-height: 300px;
+    position: relative;
+
+  }
+
+  .intro-box {
+    position: absolute;
+  }
+
+  .intro-box h1 {
+    position: absolute;
+  }
+
+  .intro-box p {
+    position: absolute;
 
   }
 }
@@ -17,10 +31,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.nav{
+
 }
 
 .intro-box {
   display:  block;
+  position: absolute;
   text-align: center;
   border: 5px solid #f1f1f1;
   border-radius: 50px;

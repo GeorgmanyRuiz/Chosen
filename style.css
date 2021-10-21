@@ -6,7 +6,7 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    min-width: 450px;
+    min-width: 300px;
     min-height: 650px;
     position: relative;
 
@@ -14,6 +14,7 @@
 
   .intro-box {
     position: absolute;
+    display: flex;
     min-width: 400px;
     min-height: 400px;
   }

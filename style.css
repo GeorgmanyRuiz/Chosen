@@ -4,19 +4,19 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body {
     min-width: 300px;
-    max-height: 650px;
+    min-height: 650px;
     position: relative;
 
   }
 
   .intro-box {
-    position: absolute;
+    position: static;
     display: flex;
-    min-width: 400px;
-    min-height: 400px;
+    min-width: 300px;
+    min-height: 650px;
   }
   .nav {
     position: relative;

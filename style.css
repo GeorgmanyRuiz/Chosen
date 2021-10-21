@@ -7,7 +7,7 @@
 @media only screen and (max-width: 600px) {
   body {
     min-width: 300px;
-    min-height: 650px;
+    max-height: 650px;
     position: relative;
 
   }
